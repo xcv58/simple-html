@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(146, 0, 51);
+}
+
+#title {
+  position: absolute;
+  height: 16px;
+  top: 120px;
+  left: 100px;
+}
+
+#content {
+  margin: 200px 100px;
+  height: calc(100vh - 400px);
+  overflow: scroll;
+  background-color: white;
+}
